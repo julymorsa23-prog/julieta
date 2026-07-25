@@ -1,0 +1,688 @@
+/* =====================================
+   DOG ESTÉTICA CANINA - DISEÑO MODERNO
+===================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        #fff1f5,
+        #e8f7ff
+    );
+
+    color:#333;
+
+}
+
+
+
+/* =====================================
+        LOGIN MODERNO
+===================================== */
+
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#fce4ec,#e3f2fd);
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* Contenedor principal */
+#login{
+
+    width:420px;
+
+    background:rgba(255,255,255,.90);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+    text-align:center;
+
+}
+
+/* Logo */
+#login img{
+
+    width:140px;
+
+    height:140px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}
+
+/* Título */
+#login h1{
+
+    color:#8e44ad;
+
+    font-size:30px;
+
+    margin-bottom:10px;
+
+}
+
+/* Texto */
+#login p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+    font-size:16px;
+
+}
+
+
+
+/* =====================================
+        INPUTS
+===================================== */
+
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-bottom:15px;
+
+    border:none;
+
+    background:#f7f7f7;
+
+    border-radius:15px;
+
+    outline:none;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    background:white;
+
+    box-shadow:
+    0 0 0 3px rgba(142,68,173,.2);
+
+}
+
+
+
+/* =====================================
+        BOTONES
+===================================== */
+
+
+button,
+.boton,
+input[type="submit"],
+input[type="reset"]{
+
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #b45cff,
+        #8e44ad
+    );
+
+
+    color:white;
+
+    border:none;
+
+    padding:13px 25px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover,
+.boton:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 20px rgba(142,68,173,.3);
+
+}
+
+
+
+/* =====================================
+        CONTENEDOR
+===================================== */
+
+
+.contenedor{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+
+
+/* =====================================
+        MENU LATERAL MODERNO
+===================================== */
+
+
+.menu{
+
+
+    width:270px;
+
+    background:
+
+    linear-gradient(
+        180deg,
+        #8e44ad,
+        #5e3370
+    );
+
+
+    color:white;
+
+    padding:30px 20px;
+
+    box-shadow:
+    5px 0 20px rgba(0,0,0,.15);
+
+}
+
+
+
+.logo{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.logo img{
+
+    width:100px;
+
+    height:100px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:4px solid white;
+
+}
+
+
+
+.logo h2{
+
+    margin-top:15px;
+
+    font-size:22px;
+
+}
+
+
+
+.menu ul{
+
+    list-style:none;
+
+}
+
+
+
+.menu li{
+
+    margin:15px 0;
+
+}
+
+
+
+.menu a{
+
+
+    color:white;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:14px;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+}
+
+
+
+.menu a:hover{
+
+
+    background:rgba(255,255,255,.2);
+
+    transform:translateX(8px);
+
+}
+
+
+
+/* =====================================
+        CONTENIDO
+===================================== */
+
+
+.principal{
+
+    flex:1;
+
+    padding:35px;
+
+}
+
+
+
+.encabezado{
+
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+
+.encabezado h1{
+
+    color:#8e44ad;
+
+    font-size:28px;
+
+}
+
+
+
+.usuario{
+
+
+    background:#f5eaff;
+
+    padding:12px 20px;
+
+    border-radius:20px;
+
+    color:#8e44ad;
+
+}
+
+
+
+/* =====================================
+        TARJETAS
+===================================== */
+
+
+.tarjetas{
+
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+
+
+.tarjeta{
+
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.1);
+
+
+    transition:.3s;
+
+}
+
+
+
+.tarjeta:hover{
+
+
+    transform:translateY(-8px);
+
+
+}
+
+
+
+.tarjeta h3{
+
+    color:#8e44ad;
+
+}
+
+
+
+.tarjeta h2{
+
+
+    font-size:40px;
+
+    margin-top:10px;
+
+}
+
+
+
+/* =====================================
+        FORMULARIOS
+===================================== */
+
+
+.formulario{
+
+
+    background:white;
+
+    padding:35px;
+
+    margin-top:30px;
+
+    border-radius:25px;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+.formulario label{
+
+    color:#555;
+
+    font-weight:600;
+
+}
+
+
+
+/* =====================================
+        TABLAS MODERNAS
+===================================== */
+
+
+table{
+
+
+    width:100%;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    border-collapse:collapse;
+
+    margin-top:30px;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+table th{
+
+
+    background:#8e44ad;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+
+
+table td{
+
+
+    padding:14px;
+
+    text-align:center;
+
+}
+
+
+
+table tr{
+
+    transition:.3s;
+
+}
+
+
+
+table tr:hover{
+
+
+    background:#f8edff;
+
+}
+
+
+
+table a{
+
+
+    color:#8e44ad;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+}
+
+
+
+/* =====================================
+        BIENVENIDA
+===================================== */
+
+
+.bienvenida{
+
+
+    margin-top:30px;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:25px;
+
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+.bienvenida h2{
+
+    color:#8e44ad;
+
+}
+
+
+
+/* =====================================
+        EFECTOS EXTRA
+===================================== */
+
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+    background:#8e44ad;
+
+    border-radius:20px;
+
+}
+
+
+
+/* =====================================
+        RESPONSIVE
+===================================== */
+
+
+@media(max-width:900px){
+
+
+.contenedor{
+
+    flex-direction:column;
+
+}
+
+
+.menu{
+
+    width:100%;
+
+}
+
+
+
+.principal{
+
+    padding:20px;
+
+}
+
+
+
+.encabezado{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+
+#login{
+
+    width:90%;
+
+}
+
+
+}

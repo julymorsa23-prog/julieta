@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Estetica </title>
+
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+
+
+<body>
+
+
+<!-- LOGIN -->
+
+<div id="login">
+
+    <img src="cane1.jpg.jpg" alt="logo" width="300" geight="300">
+<h1> Dog Estetica </h1>
+<button onclick="modoDaltonismo()">
+
+        <i class="fa-solid fa-eye"></i>
+
+        Modo Daltonismo
+
+    </button>
+<p>Inicio de sesión</p>
+
+
+<input 
+type="text" 
+id="usuario"
+placeholder="Usuario">
+
+
+<input 
+type="password"
+id="clave"
+placeholder="Contraseña">
+
+
+<button onclick="login()">
+Entrar
+</button>
+
+
+</div>
+
+
+
+
+<!-- PAGINA PRINCIPAL -->
+
+
+<div id="app" class="oculto">
+
+
+<header>
+
+<h1> Administracion de estetica canina</h1>
+
+</header>
+
+
+
+<nav>
+
+
+<button onclick="seccion('inicio')">
+ Inicio
+</button>
+
+
+<button onclick="seccion('citas')">
+Agendar citas
+</button>
+
+
+<button onclick="seccion('borrar')">
+Eliminar citas
+</button>
+
+
+<button onclick="seccion('buscar')">
+Consultar citas
+</button>
+
+
+<button onclick="seccion('mascotas')">
+mascotas
+</button>
+
+
+<button onclick="salir()">
+Cerrar sesión
+</button>
+
+
+</nav>
+
+
+
+
+
+<main>
+
+
+<div id="inicio">
+
+<h2>
+Bienvenido al sistema
+</h2>
+
+<p>
+genera citas para tu mascota
+</p>
+
+</div>
+
+
+
+
+
+<div id="citas" class="oculto">
+
+
+<h2> Nueva cita</h2>
+
+
+<input 
+id="cita"
+placeholder="Nombre de la mascota">
+
+
+<input 
+type="date"
+id="fecha">
+
+
+<button onclick="guardar()">
+Registrar
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div id="borrar" class="oculto">
+
+
+<h2>
+Eliminar cita
+</h2>
+
+
+<input 
+id="numero"
+placeholder="Número de cita">
+
+
+<button onclick="borrar()">
+Eliminar
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div id="buscar" class="oculto">
+
+
+<h2>
+Lista de citas
+</h2>
+
+
+<ul id="citasLista"></ul>
+
+
+</div>
+
+
+
+
+
+
+
+<div id="mascota" class="oculto">
+
+
+<h2>
+mascota
+</h2>
+
+
+<input 
+id="nueva mascota"
+placeholder="Nombre">
+
+
+<button onclick="agregar()">
+Agregar
+</button>
+
+
+<ul id="mascotas Lista"></ul>
+
+
+
+</div>
+
+
+
+</main>
+
+
+</div>
+
+<script>
+
+function cambiarDaltonismo() {
+    document.body.classList.toggle("daltonismo");
+}
+</script>
+
+</body>
+</html>

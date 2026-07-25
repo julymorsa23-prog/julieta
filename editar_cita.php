@@ -53,7 +53,7 @@ $resultadoMascotas = mysqli_query($conexion, $sqlMascotas);
 
 <title>Editar Cita</title>
 
-<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="estilos.css">
 
 </head>
 
@@ -65,7 +65,7 @@ $resultadoMascotas = mysqli_query($conexion, $sqlMascotas);
 
 <div class="logo">
 
-<img src="imagenes/logo.png" width="120">
+<img src="logo.jpg" width="120">
 
 <h2>Dog Estética</h2>
 

@@ -80,7 +80,7 @@ if ($resultadoUsuarios) {
 
             <li><a href="consultar_citas.php">📋 Consultar Citas</a></li>
 
-            <li><a href="modificar_cita.php">✏️ Modificar Cita</a></li>
+            <li><a href="editar_cita.php">✏️ Modificar Cita</a></li>
 
             <li><a href="eliminar_cita.php">🗑️ Eliminar Cita</a></li>
 

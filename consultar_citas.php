@@ -113,6 +113,12 @@ Bienvenido:
 
 </div>
 
+                        <div class="controles">
+    <button id="btnDaltonismo" class="btn-daltonismo">
+        👁️ Modo Daltonismo
+    </button>
+</div>
+
 </header>
 
 <form method="GET">
@@ -213,6 +219,24 @@ Eliminar
 </main>
 
 </div>
+<script>
+
+const boton = document.getElementById("btnDaltonismo");
+
+boton.addEventListener("click", function(){
+
+    document.body.classList.toggle("daltonismo");
+
+    if(document.body.classList.contains("daltonismo")){
+        boton.innerHTML="🌈 Modo Normal";
+    }else{
+        boton.innerHTML="👁️ Modo Daltonismo";
+    }
+
+});
+
+</script>
+
 
 </body>
 

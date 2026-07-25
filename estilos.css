@@ -686,3 +686,97 @@ table a{
 
 
 }
+
+
+
+.btn-daltonismo{
+
+    background:#005fcc;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    transition:.3s;
+
+}
+
+.btn-daltonismo:hover{
+
+    background:#003d80;
+
+}
+
+
+/*==============================
+      MODO DALTONISMO
+==============================*/
+
+body.daltonismo{
+
+    background:#ffffff;
+    color:#000000;
+
+}
+
+/* Menú */
+
+body.daltonismo .menu{
+
+    background:#222;
+    color:#fff;
+
+}
+
+body.daltonismo .menu a{
+
+    color:#ffffff;
+
+}
+
+body.daltonismo .menu a:hover{
+
+    background:#ffcc00;
+    color:#000;
+
+}
+
+/* Encabezado */
+
+body.daltonismo .encabezado{
+
+    background:#ffffff;
+    color:#000;
+    border-bottom:3px solid #000;
+
+}
+
+/* Tarjetas */
+
+body.daltonismo .tarjeta{
+
+    background:#f5f5f5;
+    border:3px solid #000;
+    color:#000;
+
+}
+
+/* Bienvenida */
+
+body.daltonismo .bienvenida{
+
+    background:#ffffff;
+    border:2px solid #000;
+    color:#000;
+
+}
+
+/* Botones */
+
+body.daltonismo button{
+
+    background:#000;
+    color:#fff;
+
+}
